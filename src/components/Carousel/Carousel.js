@@ -13,16 +13,6 @@ import './Carousel.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CarouselButton from './CarouselButton/CarouselButton';
 
-// eslint-disable-next-line no-unused-vars
-const animRef = {
-    c1to2: 'carousel1to2',
-    c2to3: 'carousel2to3',
-    c3to1: 'carousel3to1',
-    c1to3: 'carousel1to3',
-    c2to1: 'carousel2to1',
-    c3to2: 'carousel3to2'
-}
-
 class Carousel extends Component {
 
     constructor(props) {
@@ -79,7 +69,8 @@ class Carousel extends Component {
      * @param {number} newP The new position.
      */
     imageAnimationHandler = (oldP, newP) => {
-        this.imageClass.push(eval("animRef.c" + oldP + "to" + newP + ""));
+        var newClass = "carousel" + oldP + "to" + newP + ""
+        this.imageClass.push(newClass);
     }
 
     render () {
