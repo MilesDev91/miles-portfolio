@@ -1,0 +1,33 @@
+.dropdownInfo {
+    color: black;
+    text-shadow: none;
+}
+
+.dropdownInfo h2 {
+    display: inline-block;
+    padding: 0;
+    margin-left: auto;
+    margin-top: 0;
+    border-bottom: 2px solid black;
+}
+
+.dropdownInfo h2:hover {
+    cursor: pointer;
+}
+
+.dropdownInfo p {
+    background-color: rgb(243, 243, 243);
+    width: 400px;
+    margin: auto;
+    text-align: left;
+    padding: 10px 14px;
+    line-height: 1.3em;
+    border: 2px solid rgb(148, 97, 4);
+    text-indent: 2em;
+}
+
+@media (max-width: 599px) {
+    .dropdownInfo p {
+        max-width: 90%;
+    }
+}

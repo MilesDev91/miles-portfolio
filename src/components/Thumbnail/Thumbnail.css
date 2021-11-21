@@ -1,0 +1,7 @@
+.thumbnail {
+    display: inline-block;
+}
+
+.thumbnail img {
+    vertical-align: top;
+}

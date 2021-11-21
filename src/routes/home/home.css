@@ -1,0 +1,88 @@
+.home {
+	padding-top: 56px;
+	width: 100%;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+.home a,a:visited,a:active {
+	text-decoration: none;
+	color: rgb(73, 73, 252);
+}
+
+.smallImage {
+	max-width: 100%;
+}
+
+.crop {
+	position: relative;
+	border-bottom: 1px solid orange;
+	border-top: 1px solid orange;
+	height: 100px;
+	overflow: hidden;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.507);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.imgText {
+	padding: 0 5%;
+	text-align: center;
+	width: 100%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.information {
+	border-top: 5px solid rgb(204, 147, 42);
+	background: white;
+	line-height: 1.7em;
+} 
+
+.infoItem {
+	border-bottom: 5px solid rgb(204, 147, 42);
+}
+
+.infoItem h1 {
+	text-align: center;
+}
+
+.infoItem p {
+	margin: 0 20% 10px 20%;
+	font-size: 20px;
+}
+
+.infoItem li {
+	list-style-type: none;
+	margin: 20px 20% 10px 20%;
+	font-size: 32px;
+	color: rgb(75, 173, 75);
+}
+
+.text p {
+	font-size: 1.2em;
+}
+
+@media (max-width: 599px) {
+	
+	.infoItem p {
+		margin: 0 5% 10px 5%;
+	}
+
+	.infoItem li {
+		margin: 20px 5% 10px 5%;
+	}
+
+	.infoItem ul {
+		padding: 0;
+	}
+}

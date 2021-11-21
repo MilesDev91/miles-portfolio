@@ -1,0 +1,38 @@
+.button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+}
+
+.buttonAnimationLeft {
+    animation: left-button-animation .5s ease-out forwards;
+}
+
+.buttonAnimationRight {
+    animation: right-button-animation .5s ease-out forwards;
+}
+
+@keyframes left-button-animation {
+    50% {
+        transform: translateX(-5%);
+        color: rgba(255, 180, 40, 0.7);
+    }
+
+    100% {
+        transform: translateX(0);
+        color: white;
+    }
+}
+
+@keyframes right-button-animation {
+    50% {
+        transform: translateX(5%);
+        color: rgba(255, 180, 40, 0.7);
+    }
+
+    100% {
+        transform: translateX(0);
+        color: white;
+    }
+}

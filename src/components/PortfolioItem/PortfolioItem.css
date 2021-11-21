@@ -1,0 +1,25 @@
+.portfolioItem {
+    display: inline-block;
+    width: 405px;
+    margin: 2% 3%;
+}
+
+.thumbnail  {
+    margin: 24px 0;
+}
+
+.thumbnail img {
+    box-shadow: 2px 3px 5px rgb(71, 71, 71);
+    border: 2px solid rgba(197, 197, 197, 0.733);
+}
+
+@media (max-width: 420px) {
+    .portfolioItem {
+        max-width: 95%;
+    }
+
+    .thumbnail img {
+        max-width: 90%;
+        height: auto;
+    }
+}

@@ -1,0 +1,206 @@
+.carousel {
+    max-height: 95vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 0;
+}
+
+.carousel img {
+    width: 100vw;
+    border-right: 5px solid rgb(39, 39, 39);
+}
+
+.carousel p {
+    text-shadow: 1px 2px 2px rgb(32, 32, 32);
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.carouselp1 {
+    text-align: center;
+    color: white;
+    animation: text-in1 .5s ease-in forwards;
+}
+
+.carouselp2 {
+    text-align: center;
+    color: white;
+    animation: text-in2 .5s ease-in forwards;
+}
+
+.carouselp3 {
+    text-align: center;
+    color: white;
+    animation: text-in3 .5s ease-in forwards;
+}
+
+.middle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300vw;
+    flex-grow: 1;
+    z-index: 10;
+}
+
+/* ---------------animation classes---------------- */
+
+.carousel1to2 {
+    animation: c1to2 .5s ease-out forwards;
+}
+
+.carousel2to3 {
+    animation: c2to3 .5s ease-out forwards;
+}
+
+.carousel3to1 {
+    animation: c3to1 .5s ease-out forwards;
+}
+
+.carousel1to3 {
+    animation: c1to3 .5s ease-out forwards;
+}
+
+.carousel3to2 {
+    animation: c3to2 .5s ease-out forwards;
+}
+
+.carousel2to1 {
+    animation: c2to1 .5s ease-out forwards;
+}
+
+.carousel button:focus {
+    outline: none;
+}
+
+
+/* ------------------------------------------------------------------- */
+/* -------------Beginning of Carousel Animation Keyframes------------- */
+/* ------------------------------------------------------------------- */
+
+@keyframes c1to2 {
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes c2to3 {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(-200vw);
+    }
+}
+
+@keyframes c3to1 {
+    0% {
+        transform: translateX(-200vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes c1to3 {
+    100% {
+        transform: translateX(-200vw);
+    }
+}
+
+@keyframes c3to2 {
+    0% {
+        transform: translateX(-200vw);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes c2to1 {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* ------------------------------------------------------------------- */
+/* -----------------End of Carousel Animation Keyframes--------------- */
+/* ------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------- */
+/* ------------------------Text Keyframes----------------------------- */
+/* ------------------------------------------------------------------- */
+
+@keyframes text-in1 {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes text-in2 {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes text-in3 {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: white;
+    }
+}
+
+/* ------------------------------------------------------------------- */
+/* --------------------------Mobile Styling--------------------------- */
+/* ------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+    .carousel {
+        max-height: 450px;
+        flex-direction: column;
+    }
+
+    .carousel img {
+        height: 150px;
+    }
+
+    .carousel Button {
+        display: none;
+    }
+}
