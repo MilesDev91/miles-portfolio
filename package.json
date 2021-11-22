@@ -23,6 +23,7 @@
     "postinstall": "if test \"$NODE_ENV\"=\"production\"; then npm run build; fi",
     "start": "node server.js"
   },
+  "homepage": "https://miles-portfolio.herokuapp.com/",
   "eslintConfig": {
     "extends": [
       "react-app",
