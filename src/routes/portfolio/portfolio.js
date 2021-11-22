@@ -14,6 +14,38 @@ export default class Portfolio extends Component {
 				<div className='portfolio'>
 					<h1><FontAwesomeIcon icon="folder-open" /> Portfolio <br /><hr /></h1>
 
+					{/* This section is for solo projects */}
+					<div className='portfolioItems'>
+						<PortfolioItem
+							imageWidth="400"
+							imageHeight="300"
+							image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/JnsMetals.png"
+							link="https://jnsmetalart.com"
+							title="JnS Metal Art"
+							content="filler"
+						/>
+					</div>
+					<div className='portfolioItems'>
+						<PortfolioItem
+							imageWidth="400"
+							imageHeight="300"
+							image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/TalkGaming.png"
+							link="https://talk-gaming.herokuapp.com/#/"
+							title="Talk Gaming"
+							content="filler"
+						/>
+					</div>
+					<div className='portfolioItems'>
+						<PortfolioItem
+							imageWidth="400"
+							imageHeight="300"
+							image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/SudokuSolver.png"
+							link="https://talk-gaming.herokuapp.com/#/"
+							title="Sudoku Solver"
+							content="filler"
+						/>
+					</div>
+
 					{/* This section is for tutorial projects */}
 					<h2>Tutorial Projects</h2>
 					<div className='portfolioItems'>
