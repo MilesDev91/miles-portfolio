@@ -2,6 +2,7 @@
     display: inline-block;
     width: 405px;
     margin: 2% 3%;
+    padding-bottom: 3rem;
 }
 
 .thumbnail  {
@@ -11,6 +12,10 @@
 .thumbnail img {
     box-shadow: 2px 3px 5px rgb(71, 71, 71);
     border: 2px solid rgba(197, 197, 197, 0.733);
+}
+
+a {
+    text-decoration: none;
 }
 
 @media (max-width: 420px) {

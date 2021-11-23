@@ -22,27 +22,26 @@ export default class Portfolio extends Component {
 							image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/JnsMetals.png"
 							link="https://jnsmetalart.com"
 							title="JnS Metal Art"
-							content="filler"
+							content="JnS Metals is a live production app that I made for family. When business needs pick up production of the app will continue (or transition to another platform if appropriate), in which full e-commerce functionality is intended. It is hosted by Inmotion and uses Amazon S3 and a Firebase realtime database for its data."
+							github="https://github.com/MilesDev91/snjmetals"
 						/>
-					</div>
-					<div className='portfolioItems'>
 						<PortfolioItem
 							imageWidth="400"
 							imageHeight="300"
 							image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/TalkGaming.png"
 							link="https://talk-gaming.herokuapp.com/#/"
 							title="Talk Gaming"
-							content="filler"
+							content="This is a gaming forum I am creating in Vue. It will eventually have a small set of features that most forums have. I made it particularly to practice database management with Firestore."
+							github="https://github.com/MilesDev91/talkgaming"
 						/>
-					</div>
-					<div className='portfolioItems'>
 						<PortfolioItem
 							imageWidth="400"
 							imageHeight="300"
 							image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/SudokuSolver.png"
-							link="https://talk-gaming.herokuapp.com/#/"
+							link="https://talk-gaming.https://solve-sudoku-application.herokuapp.com/.com/#/"
 							title="Sudoku Solver"
-							content="filler"
+							content="This is a bit of a double hobby project that I thought would be good practice for algorithm and basic UI development. It is made in Vue as well. It currently has basic input and validity checking functionality, and I intend to give it a nice solving feature set that is unique to other sudoku apps."
+							github="https://github.com/MilesDev91/sudokusolver"
 						/>
 					</div>
 
