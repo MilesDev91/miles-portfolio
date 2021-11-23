@@ -1,7 +1,7 @@
 .home {
 	padding-top: 56px;
 	width: 100%;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	overflow-x: hidden;
 }
 
@@ -44,7 +44,7 @@
 
 .information {
 	border-top: 5px solid rgb(204, 147, 42);
-	background: white;
+	background: rgb(251, 246, 235);
 	line-height: 1.7em;
 } 
 
