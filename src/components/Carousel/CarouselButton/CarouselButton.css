@@ -3,6 +3,7 @@
     border: none;
     color: white;
     z-index: 100;
+    padding-right: 30px;
 }
 
 .buttonAnimationLeft {
