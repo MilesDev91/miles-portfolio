@@ -53,13 +53,25 @@ a:active {
 .aboutMe {
   border-bottom: 5px solid rgb(204, 147, 42);
   display: flex;
+  justify-content: center;
+}
+.aboutMeImage {
+  width: 300px;
+  border-radius: 50%;
+  margin: 2rem;
+  border: 2px solid rgb(204, 147, 42);
+}
+
+.aboutMeInfo {
+  margin: 0 5%;
+  max-width: 400px;
 }
 
 .infoItem {
   border-bottom: 5px solid rgb(204, 147, 42);
 }
 
-.infoItem h1 {
+h1 {
   text-align: center;
 }
 
@@ -86,14 +98,6 @@ li p {
   font-size: 1.2em;
 }
 
-.aboutMeImage {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  margin: 2rem;
-  border: 2px solid rgb(204, 147, 42);
-}
-
 @media (max-width: 599px) {
   .infoItem p {
     margin: 0 5% 10px 5%;
@@ -105,5 +109,9 @@ li p {
 
   .infoItem ul {
     padding: 0;
+  }
+
+  .aboutMe {
+    flex-direction: column;
   }
 }

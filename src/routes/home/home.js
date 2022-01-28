@@ -26,8 +26,12 @@ class Home extends Component {
         <div className="home">
           <div className="information">
             <div className="aboutMe">
-              <img className="aboutMeImage" src={aboutMeImg} />
-              <div>
+              <img
+                alt="Miles Coffin"
+                className="aboutMeImage"
+                src={aboutMeImg}
+              />
+              <div className="aboutMeInfo">
                 <h1>About Me</h1>
                 <p>
                   Hello, I am a web developer who is quickly gaining practical
