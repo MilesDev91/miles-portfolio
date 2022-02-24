@@ -23,6 +23,7 @@ function portfolioItem(props) {
         noToggle
         show={true}
       />
+      <a href={props.projectRoute}>Read more about this project</a>
     </div>
   );
 }

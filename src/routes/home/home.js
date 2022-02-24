@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./home.css";
+import "../../style/index.css";
 import aboutMeImg from "../../assets/image/aboutme.jpg";
 
 // import Carousel from "../../components/Carousel/Carousel.js";
@@ -23,7 +24,7 @@ class Home extends Component {
     return (
       <div>
         <Header />
-        <div className="home">
+        <div className="home page-container">
           <div className="information">
             <div className="aboutMe">
               <img
