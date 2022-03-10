@@ -20,7 +20,7 @@ export default class Portfolio extends Component {
               imageWidth="400"
               imageHeight="300"
               image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/lovingsitter.png"
-              link="https://loving-sitter.web.app/"
+              link="https://loving-sitter-client.herokuapp.com/"
               title="Loving Sitter"
               content="Loving sitter is a group project designed to bring pet sitters and owners together in a specialized marketplace. It uses React, Express, MongoDB, Node.js, and MUI(Material UI for React)."
               github="https://github.com/hatchways/team-pine"
