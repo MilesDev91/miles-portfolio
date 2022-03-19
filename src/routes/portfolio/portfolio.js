@@ -19,22 +19,22 @@ export default class Portfolio extends Component {
             <PortfolioItem
               imageWidth="400"
               imageHeight="300"
-              image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/lovingsitter.png"
-              link="https://loving-sitter-client.herokuapp.com/"
-              title="Loving Sitter"
-              content="Loving sitter is a group project designed to bring pet sitters and owners together in a specialized marketplace. It uses React, Express, MongoDB, Node.js, and MUI(Material UI for React)."
-              github="https://github.com/hatchways/team-pine"
-              projectRoute="/portfolio/lovingsitter"
-            />
-            <PortfolioItem
-              imageWidth="400"
-              imageHeight="300"
               image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/TalkGaming.png"
               link="https://talk-gaming.herokuapp.com/#/"
               title="Talk Gaming"
               content="This is a gaming forum I am creating in Vue. It will eventually have a small set of features that most forums have. I made it particularly to practice database management with Firestore and hone my UI and UX design skills."
               github="https://github.com/MilesDev91/talkgaming"
               projectRoute="/portfolio/talkgaming"
+            />
+            <PortfolioItem
+              imageWidth="400"
+              imageHeight="300"
+              image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/lovingsitter.png"
+              link="https://loving-sitter-client.herokuapp.com/"
+              title="Loving Sitter"
+              content="Loving sitter is a group project designed to bring pet sitters and owners together in a specialized marketplace. It uses React, Express, MongoDB, Node.js, and MUI(Material UI for React)."
+              github="https://github.com/hatchways/team-pine"
+              projectRoute="/portfolio/lovingsitter"
             />
           </div>
         </div>

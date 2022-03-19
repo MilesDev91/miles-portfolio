@@ -62,7 +62,7 @@ class Home extends Component {
                   <h2 className="skillTitle">Vue</h2>
                   <p>
                     Vue.js is a great javascript framework that combines HTML
-                    and javascript into Vue's. Shares some of the same ideas as
+                    and javascript into Vues. Shares some of the same ideas as
                     React, especially with component modularity.
                   </p>
                 </li>
