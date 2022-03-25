@@ -22,7 +22,7 @@ export default class Portfolio extends Component {
               image="https://s3.amazonaws.com/miles-portfolio.com/assets/image/TalkGaming.png"
               link="https://talk-gaming.herokuapp.com/#/"
               title="Talk Gaming"
-              content="This is a gaming forum I am creating in Vue. It will eventually have a small set of features that most forums have. I made it particularly to practice database management with Firestore and hone my UI and UX design skills."
+              content="This is a gaming forum I am creating in Vue. I made it particularly to practice database management with Firestore and hone my UI and UX design skills."
               github="https://github.com/MilesDev91/talkgaming"
               projectRoute="/portfolio/talkgaming"
             />

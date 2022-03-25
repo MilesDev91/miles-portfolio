@@ -3,21 +3,9 @@ import "./home.css";
 import "../../style/index.css";
 import aboutMeImg from "../../assets/image/aboutme.jpg";
 
-// import Carousel from "../../components/Carousel/Carousel.js";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import withResizeHandler from "../../hoc/withResizeHandler";
-
-// const imgArray = [
-//   "https://s3.amazonaws.com/miles-portfolio.com/assets/image/Initial.jpeg",
-//   "https://s3.amazonaws.com/miles-portfolio.com/assets/image/Second.png",
-//   "https://s3.amazonaws.com/miles-portfolio.com/assets/image/Third.jpeg",
-// ];
-// const imgText = [
-//   "Every site has its unique challenges, and each can be overcome.",
-//   "React.js transforms any website into a smooth experience.",
-//   "Success through communication.",
-// ];
 
 class Home extends Component {
   render() {

@@ -29,8 +29,8 @@ export default class App extends Component {
     return (
       <div id="app">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/portfolio/" element={<Portfolio />} />
+          <Route path="/" element={<Portfolio />} />
+          <Route path="/about-me/" element={<Home />} />
           <Route path="/contact/" element={<Contact />} />
           <Route path="/portfolio/lovingsitter" element={<LovingSitter />} />
           <Route path="/portfolio/talkgaming" element={<TalkGaming />} />
