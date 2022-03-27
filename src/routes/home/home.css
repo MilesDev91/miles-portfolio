@@ -12,46 +12,13 @@ a:active {
   color: rgb(73, 73, 252);
 }
 
-.smallImage {
-  max-width: 100%;
-}
-
-.crop {
-  position: relative;
-  border-bottom: 1px solid orange;
-  border-top: 1px solid orange;
-  height: 100px;
-  overflow: hidden;
-}
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.507);
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.imgText {
-  padding: 0 5%;
-  text-align: center;
-  width: 100%;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .information {
-  border-top: 5px solid rgb(204, 147, 42);
   background: rgb(255, 254, 251);
   line-height: 1.7em;
 }
 
 .aboutMe {
-  border-bottom: 5px solid rgb(204, 147, 42);
+  border-bottom: 5px solid rgb(99, 134, 248);
   display: flex;
   justify-content: center;
 }
@@ -59,7 +26,7 @@ a:active {
   width: 300px;
   border-radius: 50%;
   margin: 2rem;
-  border: 2px solid rgb(204, 147, 42);
+  border: 2px solid rgb(99, 134, 248);
 }
 
 .aboutMeInfo {
@@ -68,7 +35,7 @@ a:active {
 }
 
 .infoItem {
-  border-bottom: 5px solid rgb(204, 147, 42);
+  border-bottom: 5px solid rgb(99, 134, 248);
 }
 
 h1 {
@@ -86,7 +53,6 @@ h1 {
 }
 
 .skillTitle {
-  color: rgb(75, 173, 75);
   margin: 0 0 0.5rem 0;
 }
 

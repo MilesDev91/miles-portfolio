@@ -9,7 +9,7 @@ const footer = (props) => {
       <p> &copy; 2022 Miles Applications</p>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/about-me">About me</Link>
         <Link to="/contact">Contact</Link>
       </nav>
     </div>

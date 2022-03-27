@@ -1,67 +1,66 @@
 .header {
-	position: fixed;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 56px;
-	padding: 0;
-	background: linear-gradient(rgb(252, 188, 69), rgb(248, 196, 99));;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-	z-index: 50;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 56px;
+  padding: 0;
+  background: linear-gradient(rgb(54, 154, 212), rgb(99, 134, 248));
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 50;
 }
 
 .header h1 {
-	float: left;
-	margin: 0;
-	padding: 0 15px;
-	font-size: 24px;
-	line-height: 56px;
-	font-weight: 400;
-	color: rgb(252, 244, 231);
-	text-shadow: 1px 2px 2px rgb(61, 61, 61);
+  float: left;
+  margin: 0;
+  padding: 0 15px;
+  font-size: 24px;
+  line-height: 56px;
+  font-weight: 400;
+  color: rgb(252, 244, 231);
+  text-shadow: 1px 2px 2px rgb(61, 61, 61);
 }
 
 .header button {
-	border: none;
-	background-color: transparent;
-	color: white;
-	margin: 0;
-	padding-right: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  padding-right: 15px;
 }
 
 .header nav {
-	font-size: 100%;
+  font-size: 100%;
 }
 
 .header nav a {
-	display: inline-block;
-	height: 56px;
-	line-height: 56px;
-	padding: 0 15px;
-	min-width: 50px;
-	text-align: center;
-	background: rgba(255,255,255,0);
-	text-decoration: none;
-	color: rgb(252, 244, 231);
-	will-change: background-color;
+  display: inline-block;
+  height: 56px;
+  line-height: 56px;
+  padding: 0 15px;
+  min-width: 50px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  color: rgb(252, 244, 231);
+  will-change: background-color;
 }
 
 .header nav a:hover,
 .header nav a:active {
-	background: rgba(0, 0, 0, 0.164);
-	border-bottom: 3px solid rgba(87, 221, 87, 0.747);
-
+  background: rgba(0, 0, 0, 0.164);
+  border-bottom: 3px solid rgba(87, 221, 87, 0.747);
 }
 
 .header nav a.active {
-	background: rgba(0,0,0,0.3);
-	border-bottom: 3px solid rgba(87, 221, 87, 0.747);
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(87, 221, 87, 0.747);
 }
 
 .dropdown {
-	background-color: white;
-	border: 1px solid black;
+  background-color: white;
+  border: 1px solid black;
 }

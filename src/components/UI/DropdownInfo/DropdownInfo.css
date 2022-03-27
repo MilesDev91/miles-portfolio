@@ -1,33 +1,32 @@
 .dropdownInfo {
-    color: black;
-    text-shadow: none;
+  color: black;
+  text-shadow: none;
+  margin-bottom: 1rem;
 }
 
 .dropdownInfo h2 {
-    display: inline-block;
-    padding: 0;
-    margin-left: auto;
-    margin-top: 0;
-    border-bottom: 2px solid black;
+  display: inline-block;
+  padding: 0;
+  margin-left: auto;
+  margin-top: 0;
+  border-bottom: 2px solid black;
 }
 
 .dropdownInfo h2:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .dropdownInfo p {
-    background-color: rgb(255, 217, 186);
-    width: 400px;
-    margin: auto;
-    text-align: left;
-    padding: 10px 14px;
-    line-height: 1.3em;
-    border: 2px solid rgb(148, 97, 4);
-    text-indent: 2em;
+  width: 400px;
+  margin: auto;
+  text-align: left;
+  padding: 10px 14px;
+  line-height: 1.3em;
+  text-indent: 2em;
 }
 
 @media (max-width: 599px) {
-    .dropdownInfo p {
-        max-width: 90%;
-    }
+  .dropdownInfo p {
+    max-width: 90%;
+  }
 }

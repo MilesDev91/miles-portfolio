@@ -1,6 +1,7 @@
 import "./PortfolioItem.css";
 import Thumbnail from "../Thumbnail/Thumbnail";
 import DropdownInfo from "../UI/DropdownInfo/DropdownInfo";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function portfolioItem(props) {
   return (
@@ -23,7 +24,9 @@ function portfolioItem(props) {
         noToggle
         show={true}
       />
-      <a href={props.projectRoute}>Read more about this project</a>
+      <FontAwesomeIcon icon="angle-right" />
+      <a href={props.projectRoute}> Read more about this project </a>
+      <FontAwesomeIcon icon="angle-left" />
     </div>
   );
 }

@@ -4,10 +4,10 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: darkslategrey;
+  background: rgb(99, 134, 248);
   font-family: "Helvetica Neue", arial, sans-serif;
   font-weight: 400;
-  color: #444;
+  color: rgb(32, 32, 32);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
